@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    text-shadow: none; 
+    overflow: hidden;
+}
+div {
+    width: 1em;
+    color: black;
+    animation-name: example;
+    animation-duration: 2s;
+    text-shadow: none; 
+}
+.container {
+    position: absolute;
+}
+@keyframes example {
+    0%   {color: white;  /*text-shadow: -1px 1px 8px white;*/}
+    15%  {color: #5f5 ;  /*text-shadow: -1px 1px 8px #5f5;*/}
+    100% {color: black;  text-shadow: none;}
+}
